@@ -1,0 +1,2752 @@
+1
+00:00:00,000 --> 00:00:01,979
+halo halo teman-teman semua kembali lagi
+
+2
+00:00:01,979 --> 00:00:04,529
+di playlist belajar HTML5 bersama saya
+
+3
+00:00:04,529 --> 00:00:06,839
+sandhika Galih di blog kali ini di
+
+4
+00:00:06,839 --> 00:00:09,710
+episode ke-4 kita akan membahas mengenai
+
+5
+00:00:09,710 --> 00:00:12,599
+audio dan video ya teman-temannya jadi
+
+6
+00:00:12,599 --> 00:00:15,120
+elemen ini atau tek-tek ini merupakan
+
+7
+00:00:15,120 --> 00:00:18,270
+tek-tek baru yang ada di HTML5 kita akan
+
+8
+00:00:18,270 --> 00:00:21,150
+bahas satu persatu kita mulai dengan tag
+
+9
+00:00:21,150 --> 00:00:24,900
+audio jadi Tego Ini adalah sebuah teks
+
+10
+00:00:24,900 --> 00:00:27,570
+atau elemen yang merepresentasikan suara
+
+11
+00:00:27,570 --> 00:00:30,869
+atau aliran audio untuk membuat sebuah
+
+12
+00:00:30,869 --> 00:00:32,910
+elemen audio ini cukup mudah yang
+
+13
+00:00:32,910 --> 00:00:34,860
+teman-temannya kita tinggal memanggil
+
+14
+00:00:34,860 --> 00:00:37,410
+c-nya atau menuliskan teks nya lalu
+
+15
+00:00:37,410 --> 00:00:39,930
+menuliskan atribut yang wajib ada yaitu
+
+16
+00:00:39,930 --> 00:00:42,960
+src atau sourcenya tempat kita menyimpan
+
+17
+00:00:42,960 --> 00:00:45,960
+file audionya lalu kita bisa menambahkan
+
+18
+00:00:45,960 --> 00:00:48,750
+atribut controls untuk menambahkan
+
+19
+00:00:48,750 --> 00:00:53,430
+kontrol untuk play pause ataupun kraber
+
+20
+00:00:53,430 --> 00:00:56,789
+ya atau buat kita menggeser geser posisi
+
+21
+00:00:56,789 --> 00:00:58,890
+audionya serta kita juga bisa mengatur
+
+22
+00:00:58,890 --> 00:01:01,329
+volume di yang menggunakan teks audio
+
+23
+00:01:01,329 --> 00:01:03,910
+seperti ini saja sudah cukup atau kalau
+
+24
+00:01:03,910 --> 00:01:05,799
+misalkan kita mau lebih kompleks kita
+
+25
+00:01:05,799 --> 00:01:08,560
+bisa masukkan kedalam teks figur seperti
+
+26
+00:01:08,560 --> 00:01:09,670
+yang sudah kita bahas di video
+
+27
+00:01:09,670 --> 00:01:11,979
+sebelumnya kita juga bisa menyisipkan
+
+28
+00:01:11,979 --> 00:01:15,310
+elemen multimedia lain gambar yaitu
+
+29
+00:01:15,310 --> 00:01:19,000
+audio ya David captionnya Lalu ada aodio
+
+30
+00:01:19,000 --> 00:01:21,940
+nya dan diantara tag audionya ini beda
+
+31
+00:01:21,940 --> 00:01:24,220
+dengan IMG ya kalau yikan tidak ada
+
+32
+00:01:24,220 --> 00:01:27,070
+tutupnya dengan audio ada tag tutupnya
+
+33
+00:01:27,070 --> 00:01:29,170
+nah di dalam tega audionya kita bisa
+
+34
+00:01:29,170 --> 00:01:32,530
+menuliskan teks ketika audio ini atau
+
+35
+00:01:32,530 --> 00:01:34,960
+tag ini tidak disupport oleh browsernya
+
+36
+00:01:34,960 --> 00:01:36,580
+Jadi kalau browsernya enggak support
+
+37
+00:01:36,580 --> 00:01:39,039
+audio yang akan muncul adalah tulisan
+
+38
+00:01:39,039 --> 00:01:41,920
+browser tidak mendukung egkau Dio ya
+
+39
+00:01:41,920 --> 00:01:43,030
+teman-teman nanti kita akan coba
+
+40
+00:01:43,030 --> 00:01:45,610
+praktekkan penulisan teks audio ini
+
+41
+00:01:45,610 --> 00:01:47,590
+sekarang kita lihat dulu atribut apa
+
+42
+00:01:47,590 --> 00:01:50,440
+saja yang bisa kita gunakan nya ini
+
+43
+00:01:50,440 --> 00:01:52,659
+dalam teks audio ini yang pertama tentu
+
+44
+00:01:52,659 --> 00:01:54,640
+saja kita butuh source ini adalah
+
+45
+00:01:54,640 --> 00:01:56,740
+atribut wajib nya yang kedua kita bisa
+
+46
+00:01:56,740 --> 00:01:59,080
+memberikan controls agar user bisa
+
+47
+00:01:59,080 --> 00:02:02,030
+mengendalikan Saudi Onya menggunakan
+
+48
+00:02:02,030 --> 00:02:04,039
+kontroler default-nya Nah kalau misalkan
+
+49
+00:02:04,039 --> 00:02:06,170
+kita enggak pakai kontrol itu nanti
+
+50
+00:02:06,170 --> 00:02:09,258
+maudio nya tak fungsinya akan dijalankan
+
+51
+00:02:09,258 --> 00:02:11,410
+atau dikendalikan menggunakan javascript
+
+52
+00:02:11,410 --> 00:02:14,209
+berikutnya ada preload ini untuk membuat
+
+53
+00:02:14,209 --> 00:02:17,180
+file audionya diload dulu sebelum
+
+54
+00:02:17,180 --> 00:02:19,910
+dijalankan karena default-nya tega audio
+
+55
+00:02:19,910 --> 00:02:22,430
+itu diload ketika kita menekan tombol
+
+56
+00:02:22,430 --> 00:02:25,819
+play berikutnya ada out topley untuk
+
+57
+00:02:25,819 --> 00:02:28,459
+menjalankan audio secara otomatis ada
+
+58
+00:02:28,459 --> 00:02:30,980
+Loop untuk mengulang audionya ketika
+
+59
+00:02:30,980 --> 00:02:33,890
+sudah sampai akhir ya Jadi kalau enggak
+
+60
+00:02:33,890 --> 00:02:36,470
+pakai lupa itu hanya berhenti saja satu
+
+61
+00:02:36,470 --> 00:02:38,780
+kali tapi kalau pakai Loop nanti
+
+62
+00:02:38,780 --> 00:02:40,940
+audionya muter terus ya yang terakhir
+
+63
+00:02:40,940 --> 00:02:44,150
+Adam n ini untuk membuat audio nya nggak
+
+64
+00:02:44,150 --> 00:02:46,069
+ada suaranya ya Jadi ini untuk
+
+65
+00:02:46,069 --> 00:02:48,140
+atributnya berikutnya ada beberapa
+
+66
+00:02:48,140 --> 00:02:50,540
+catatan untuk tega audio ini yang
+
+67
+00:02:50,540 --> 00:02:52,190
+pertama jelas Tadi digunakan untuk
+
+68
+00:02:52,190 --> 00:02:54,590
+menjalankan file audio yang ada beberapa
+
+69
+00:02:54,590 --> 00:02:56,780
+file adion bisa kita gunakan yang
+
+70
+00:02:56,780 --> 00:02:59,180
+pertama yang paling sering digunakan itu
+
+71
+00:02:59,180 --> 00:03:01,080
+adalah MP3 Hai berikutnya kita bisa
+
+72
+00:03:01,080 --> 00:03:03,120
+menggunakan whaff ini kualitasnya lebih
+
+73
+00:03:03,120 --> 00:03:06,180
+baik walaupun ukuran pallet jauh lebih
+
+74
+00:03:06,180 --> 00:03:08,190
+besar dan berikutnya juga kita bisa
+
+75
+00:03:08,190 --> 00:03:11,910
+menggunakan oggai atau OGB walaupun Ini
+
+76
+00:03:11,910 --> 00:03:14,130
+adalah sebuah file yang kurang umum
+
+77
+00:03:14,130 --> 00:03:16,170
+untuk digunakan tapi dia ukurannya lebih
+
+78
+00:03:16,170 --> 00:03:18,780
+kecil daripada mp3hey teman-teman bisa
+
+79
+00:03:18,780 --> 00:03:20,880
+menggunakan salah satu dari ketiga file
+
+80
+00:03:20,880 --> 00:03:23,459
+audio ini berikutnya Kita juga bisa
+
+81
+00:03:23,459 --> 00:03:25,770
+menggunakan teks source untuk memilih
+
+82
+00:03:25,770 --> 00:03:27,870
+audio jadi kita bisa masukkan beberapa
+
+83
+00:03:27,870 --> 00:03:30,950
+source dengan tipe file yang berbeda
+
+84
+00:03:30,950 --> 00:03:34,320
+nanti tega audionya akan menjalankan
+
+85
+00:03:34,320 --> 00:03:36,290
+tank source yang pertama kali ditemukan
+
+86
+00:03:36,290 --> 00:03:39,780
+dan disupport file-nya jadi kita bisa
+
+87
+00:03:39,780 --> 00:03:41,880
+masukin tiga file yang berbeda tapi
+
+88
+00:03:41,880 --> 00:03:44,640
+audionya sama ya yang 1 MP3 yang satu
+
+89
+00:03:44,640 --> 00:03:46,440
+wave yang satu obyek teman-teman
+
+90
+00:03:46,440 --> 00:03:48,989
+Langsung aja kita cobain ya jadi seperti
+
+91
+00:03:48,989 --> 00:03:51,000
+biasa kita akan bikin sebuah folder baru
+
+92
+00:03:51,000 --> 00:03:53,640
+di desktop aja ya biar gampang kita
+
+93
+00:03:53,640 --> 00:03:57,000
+kasih nama audio Dash video termasuk
+
+94
+00:03:57,000 --> 00:04:00,400
+kedalamnya lalu kita buka di VSCO X akan
+
+95
+00:04:00,400 --> 00:04:02,709
+bikin dulu file indexnya ya Jadi kita
+
+96
+00:04:02,709 --> 00:04:06,549
+kasih index html bikin struktur html nya
+
+97
+00:04:06,549 --> 00:04:10,840
+kita kasih nama titelnya audio dan video
+
+98
+00:04:10,840 --> 00:04:13,510
+ini kita simpan dua-duanya Disini yang
+
+99
+00:04:13,510 --> 00:04:15,340
+pertama kita akan coba dulu tega audio
+
+100
+00:04:15,340 --> 00:04:17,470
+yang sederhana dengan menggunakan VGA
+
+101
+00:04:17,470 --> 00:04:19,600
+audio saja Oke ini Tapi tentu saja
+
+102
+00:04:19,600 --> 00:04:21,880
+teman-teman kita butuh filenya dulu ya
+
+103
+00:04:21,880 --> 00:04:23,889
+Oke jadi sekarang saya sudah punya
+
+104
+00:04:23,889 --> 00:04:26,560
+folder namanya audio yang dialaminya ada
+
+105
+00:04:26,560 --> 00:04:29,919
+dua buah file ini file-nya audionya sama
+
+106
+00:04:29,919 --> 00:04:32,800
+hanya beda ekstensinya saja yang 1 MP3
+
+107
+00:04:32,800 --> 00:04:35,139
+yang 1og kita Panggil dulu coba satu
+
+108
+00:04:35,139 --> 00:04:37,300
+file yang MP3 mohon temennya kita
+
+109
+00:04:37,300 --> 00:04:39,580
+tinggal Arahkan ke folder audio flash
+
+110
+00:04:39,580 --> 00:04:41,740
+lalu nama file-nya Hei kalau kita hanya
+
+111
+00:04:41,740 --> 00:04:43,750
+menjalankan seperti ini kita coba ya
+
+112
+00:04:43,750 --> 00:04:46,720
+kita jalankan di browser nah ini
+
+113
+00:04:46,720 --> 00:04:48,100
+hasilnya maka tidak akan terlihat
+
+114
+00:04:48,100 --> 00:04:50,919
+apa-apa karena kita tidak berikan
+
+115
+00:04:50,919 --> 00:04:53,410
+atribut controlsend Nah kalau kita
+
+116
+00:04:53,410 --> 00:04:55,300
+tambahkan mau di depan mau di belakang
+
+117
+00:04:55,300 --> 00:04:58,570
+boleh kontrol seperti ini maka langsung
+
+118
+00:04:58,570 --> 00:05:02,060
+Ada audionya bisa langsung play many
+
+119
+00:05:02,060 --> 00:05:04,490
+kita bisa langsung play maka Harusnya
+
+120
+00:05:04,490 --> 00:05:08,000
+sekarang terdengar ya audionya ini audio
+
+121
+00:05:08,000 --> 00:05:10,909
+yang saya ambil dari library audionya
+
+122
+00:05:10,909 --> 00:05:13,039
+YouTube disini kita bisa geser Scrabble
+
+123
+00:05:13,039 --> 00:05:15,740
+nya untuk menentukan posisi audionya mau
+
+124
+00:05:15,740 --> 00:05:18,620
+di sebelah mana kita bisa atur suaranya
+
+125
+00:05:18,620 --> 00:05:21,050
+atau volumenya tidak bisa meniup dan di
+
+126
+00:05:21,050 --> 00:05:23,629
+sebelah kanan sini kita bisa lihat ada
+
+127
+00:05:23,629 --> 00:05:26,000
+menu playback speed bakau teman-teman
+
+128
+00:05:26,000 --> 00:05:28,250
+buka di browser yang berbeda Mungkin aja
+
+129
+00:05:28,250 --> 00:05:30,530
+tampilannya agak berbeda ya karena ini
+
+130
+00:05:30,530 --> 00:05:32,690
+default dari browsernya ya jadi
+
+131
+00:05:32,690 --> 00:05:34,159
+sederhana banget kita bisa tulis seperti
+
+132
+00:05:34,159 --> 00:05:36,110
+ini atau kalau mau lebih kompleks kita
+
+133
+00:05:36,110 --> 00:05:38,840
+bisa masukkan kedalam teks figur tadi
+
+134
+00:05:38,840 --> 00:05:40,690
+tentunya Nikita kasih komentar dulu
+
+135
+00:05:40,690 --> 00:05:43,430
+tersimpan di bawahnya kita bikin tak
+
+136
+00:05:43,430 --> 00:05:45,710
+figur dalamnya kita kasih captionnya
+
+137
+00:05:45,710 --> 00:05:47,750
+dulu ya captionnya boleh di atas boleh
+
+138
+00:05:47,750 --> 00:05:50,479
+bawah karena kita kasih figcaption kita
+
+139
+00:05:50,479 --> 00:05:52,909
+tulis misalnya dengarkan judul lagunya
+
+140
+00:05:52,909 --> 00:05:57,560
+adalah Skyline dari noh Domi ini
+
+141
+00:05:57,560 --> 00:06:00,030
+silahkan teman-teman boleh gunakan file
+
+142
+00:06:00,030 --> 00:06:01,800
+ataupun nya tapi hati-hati kalau
+
+143
+00:06:01,800 --> 00:06:03,330
+misalkan nanti disimpan di internet
+
+144
+00:06:03,330 --> 00:06:05,940
+pastikan audionya bebas copyright berita
+
+145
+00:06:05,940 --> 00:06:08,010
+Panggil tak audionya bisa seperti ini
+
+146
+00:06:08,010 --> 00:06:12,090
+atau kita bisa gunakan tank source ya
+
+147
+00:06:12,090 --> 00:06:14,400
+kalau mau pakai tak source berarti tag
+
+148
+00:06:14,400 --> 00:06:17,100
+audionya tidak usah kita kasih atribut
+
+149
+00:06:17,100 --> 00:06:19,860
+src karena sorenya kita akan simpan di
+
+150
+00:06:19,860 --> 00:06:22,350
+dalamnya ditemuinya tulis source disini
+
+151
+00:06:22,350 --> 00:06:25,680
+baru src nya ada di dalam sourcenya
+
+152
+00:06:25,680 --> 00:06:28,170
+begini ya terima kasih misalnya saya mau
+
+153
+00:06:28,170 --> 00:06:31,320
+ambil yang file agge tadi ya jadi audio
+
+154
+00:06:31,320 --> 00:06:34,350
+flash kita ambil yang oggai jangan lupa
+
+155
+00:06:34,350 --> 00:06:38,730
+dikasih tipenya adalah audio flash Oke
+
+156
+00:06:38,730 --> 00:06:41,910
+kalau kita mau ambil Vallen lain kita
+
+157
+00:06:41,910 --> 00:06:43,890
+tinggal duplikat aja kita ambil file
+
+158
+00:06:43,890 --> 00:06:46,980
+yang MP3 di punya kita ganti jadi audio
+
+159
+00:06:46,980 --> 00:06:49,590
+slash empagae Ajak kita nulis begini
+
+160
+00:06:49,590 --> 00:06:51,870
+kita akan cek dulu browser support
+
+161
+00:06:51,870 --> 00:06:53,940
+enggak file Oggy kalau support Jalan
+
+162
+00:06:53,940 --> 00:06:55,560
+kadang ini karena ini ukuran file lebih
+
+163
+00:06:55,560 --> 00:06:57,990
+kecil jadi asumsinya adalah bandwidth
+
+164
+00:06:57,990 --> 00:07:00,520
+yang digunakan juga lebih kecil misalnya
+
+165
+00:07:00,520 --> 00:07:02,529
+Browser yang support maka dia pindah ke
+
+166
+00:07:02,529 --> 00:07:04,779
+fall MP3 Jangan lupa teman-teman
+
+167
+00:07:04,779 --> 00:07:06,759
+Tambahkan lagi controls disini di
+
+168
+00:07:06,759 --> 00:07:09,639
+audionya yah kontrasnya agar audionya
+
+169
+00:07:09,639 --> 00:07:12,149
+bisa terlihat ini aku kita jalankan
+
+170
+00:07:12,149 --> 00:07:15,399
+sekarang dia akan memainkan file yang
+
+171
+00:07:15,399 --> 00:07:18,969
+Oggy oke itu dia mau yang kompleks
+
+172
+00:07:18,969 --> 00:07:21,369
+seperti ini boleh mau simpel seperti ini
+
+173
+00:07:21,369 --> 00:07:24,149
+juga boleh berikutnya kita bisa kasih
+
+174
+00:07:24,149 --> 00:07:27,069
+autoplay dengan menambahkan autoplay
+
+175
+00:07:27,069 --> 00:07:29,649
+seperti ini itu akan membuat audionya
+
+176
+00:07:29,649 --> 00:07:32,589
+otomatis dijalankan nah tapi saat ini
+
+177
+00:07:32,589 --> 00:07:35,469
+hampir semua browser itu sudah menjaga
+
+178
+00:07:35,469 --> 00:07:38,139
+agar audio itu tidak bisa dijalankan
+
+179
+00:07:38,139 --> 00:07:40,659
+secara otomatis ya karena user itu
+
+180
+00:07:40,659 --> 00:07:42,279
+enggak suka kalau misalnya kita masuk ke
+
+181
+00:07:42,279 --> 00:07:44,439
+sebuah website tiba-tiba di audio yang
+
+182
+00:07:44,439 --> 00:07:47,379
+jalan ini kalau kita balik ke websitenya
+
+183
+00:07:47,379 --> 00:07:50,020
+tetap tidak akan jalan secara otomatis
+
+184
+00:07:50,020 --> 00:07:51,729
+ya kadang-kadang itu kita harus
+
+185
+00:07:51,729 --> 00:07:53,770
+melakukan interaksi dulu pada websitenya
+
+186
+00:07:53,770 --> 00:07:56,680
+baru audionya jalan jadi contohnya coxae
+
+187
+00:07:56,680 --> 00:07:58,289
+klik refresh terus klik sembarang
+
+188
+00:07:58,289 --> 00:08:01,729
+audionya akan ke tetapi intinya tidak
+
+189
+00:08:01,729 --> 00:08:04,460
+akan langsung berjalannya Kita juga bisa
+
+190
+00:08:04,460 --> 00:08:08,000
+kasih atribut klub yang untuk membuat
+
+191
+00:08:08,000 --> 00:08:11,300
+audionya berulang setelah selesai sampai
+
+192
+00:08:11,300 --> 00:08:13,699
+akhir audionya semuanya kita play terus
+
+193
+00:08:13,699 --> 00:08:16,030
+kita simpan di akhir
+
+194
+00:08:16,030 --> 00:08:18,020
+setelah selesai dia ngulang lagi
+
+195
+00:08:18,020 --> 00:08:20,720
+ternyata motif jasmaniah dan kalau
+
+196
+00:08:20,720 --> 00:08:23,770
+misalnya kita kasih n
+
+197
+00:08:24,400 --> 00:08:27,800
+kalau kita jalankan maka audionya akan
+
+198
+00:08:27,800 --> 00:08:29,720
+otomatis di mulut dan suaranya nggak ada
+
+199
+00:08:29,720 --> 00:08:31,669
+tapi dia jalan ya teman-temannya Jadi
+
+200
+00:08:31,669 --> 00:08:33,950
+tuh penggunaan tag audio yang sangat
+
+201
+00:08:33,950 --> 00:08:35,659
+sederhana teman-teman bisa tambahkan
+
+202
+00:08:35,659 --> 00:08:38,089
+lebih dari satu audio di halaman web
+
+203
+00:08:38,089 --> 00:08:40,339
+teman-teman masing-masing berikutnya
+
+204
+00:08:40,339 --> 00:08:42,919
+kita masuk ke teknik video Nah kalau tak
+
+205
+00:08:42,919 --> 00:08:44,959
+video ini lebih kompleks teman-teman ya
+
+206
+00:08:44,959 --> 00:08:47,540
+kita lihat dulu dia menurut
+
+207
+00:08:47,540 --> 00:08:49,070
+penjelasannya adalah sebuah elemen yang
+
+208
+00:08:49,070 --> 00:08:51,470
+digunakan untuk menampilkan video film
+
+209
+00:08:51,470 --> 00:08:54,350
+ataupun audio jadi kita bisa pakai tak
+
+210
+00:08:54,350 --> 00:08:57,620
+video untuk menjalankan audio juga cara
+
+211
+00:08:57,620 --> 00:09:00,030
+bikinnya juga sama seperti
+
+212
+00:09:00,030 --> 00:09:03,000
+bisa simple seperti ini kita tulis video
+
+213
+00:09:03,000 --> 00:09:05,850
+source kita kasih kontrol supaya ada
+
+214
+00:09:05,850 --> 00:09:08,790
+tombol-tombol pengendalinya ada play ada
+
+215
+00:09:08,790 --> 00:09:11,820
+volume ada full screen dan ada tombol
+
+216
+00:09:11,820 --> 00:09:13,440
+menu lainnya tapi kita juga bisa
+
+217
+00:09:13,440 --> 00:09:15,480
+menentukan lebar dan tinggi dari
+
+218
+00:09:15,480 --> 00:09:18,330
+videonya ya Kita juga bisa bikin dia
+
+219
+00:09:18,330 --> 00:09:20,970
+jadi Kompleks disimpan di dalam figur ya
+
+220
+00:09:20,970 --> 00:09:22,380
+tapi sekarang kita lihat dulu atributnya
+
+221
+00:09:22,380 --> 00:09:24,290
+ya jadi atributnya lebih banyak daripada
+
+222
+00:09:24,290 --> 00:09:27,870
+audio dimulai dari source atribut wajib
+
+223
+00:09:27,870 --> 00:09:30,150
+nya berikutnya controls masih sama
+
+224
+00:09:30,150 --> 00:09:33,240
+dengan audio terus ada poster nah ini
+
+225
+00:09:33,240 --> 00:09:35,580
+untuk menampilkan sebuah gambar yang
+
+226
+00:09:35,580 --> 00:09:37,770
+akan menggantikan videonya ketika
+
+227
+00:09:37,770 --> 00:09:39,810
+videonya nggak bisa tampil yang kita
+
+228
+00:09:39,810 --> 00:09:41,940
+coba ya terus ada lagi preload sama
+
+229
+00:09:41,940 --> 00:09:45,270
+seperti audio Lalu ada Oh toply kalau
+
+230
+00:09:45,270 --> 00:09:46,920
+untuk video atau klaimnya Nanti bisa
+
+231
+00:09:46,920 --> 00:09:49,470
+kita akalin supaya bisa jalan lalu ada
+
+232
+00:09:49,470 --> 00:09:52,230
+Loop juga adamite juga nah sekarang
+
+233
+00:09:52,230 --> 00:09:55,290
+bedanya ada wis dan juga Hei maksudnya
+
+234
+00:09:55,290 --> 00:09:57,270
+kita coba ya temen-temennya kembali ke
+
+235
+00:09:57,270 --> 00:09:58,680
+codingnya jangan lupa teman-teman
+
+236
+00:09:58,680 --> 00:10:01,750
+sekarang siapkan dulu Hai video ya oke
+
+237
+00:10:01,750 --> 00:10:03,730
+Sekarang saya udah punya folder video
+
+238
+00:10:03,730 --> 00:10:05,980
+yang didalamnya pseudopus simpen ada
+
+239
+00:10:05,980 --> 00:10:07,990
+beberapa video ya yang pertama ada dua
+
+240
+00:10:07,990 --> 00:10:10,540
+buah video yang sama tapi tipe datanya
+
+241
+00:10:10,540 --> 00:10:13,510
+beda ya jadi yang satu ada MP4 yang dua
+
+242
+00:10:13,510 --> 00:10:16,660
+ada Webcam Webcam Ini adalah sebuah
+
+243
+00:10:16,660 --> 00:10:19,030
+ekstensi video yang ukurannya lebih
+
+244
+00:10:19,030 --> 00:10:21,790
+kecil daripada MP4 ya sama seperti tadi
+
+245
+00:10:21,790 --> 00:10:23,980
+Oh gini ukurannya lebih kecil daripada
+
+246
+00:10:23,980 --> 00:10:26,920
+MP3 ini videonya sama dan satu lagi saya
+
+247
+00:10:26,920 --> 00:10:29,830
+punya video hasil kompresi dari episode
+
+248
+00:10:29,830 --> 00:10:32,770
+1 kita belajar html ya yang udah saya
+
+249
+00:10:32,770 --> 00:10:34,870
+kompresi atau yang sudah saya convert
+
+250
+00:10:34,870 --> 00:10:37,180
+menjadi webmd nanti akan kita coba
+
+251
+00:10:37,180 --> 00:10:39,970
+belakangan kita coba yang 2 ini dulu ya
+
+252
+00:10:39,970 --> 00:10:42,580
+ya tetep saya bayarnya Nikita komentari
+
+253
+00:10:42,580 --> 00:10:45,100
+dulu sekarang kita Panggil teknik video
+
+254
+00:10:45,100 --> 00:10:47,770
+yang simple dulu ya baru src nya kita
+
+255
+00:10:47,770 --> 00:10:52,240
+Panggil foldernya video lalu 1 MP4 dari
+
+256
+00:10:52,240 --> 00:10:54,460
+kalau kita save kita lihat hasilnya itu
+
+257
+00:10:54,460 --> 00:10:56,140
+tampillah seperti ini jadi videonya
+
+258
+00:10:56,140 --> 00:10:58,780
+tidak berjalan tapi nggak bisa kita play
+
+259
+00:10:58,780 --> 00:11:01,790
+juga karena kontrol sadaya dan ukurannya
+
+260
+00:11:01,790 --> 00:11:04,730
+ini ukuran default dari videonya jadi
+
+261
+00:11:04,730 --> 00:11:06,679
+ukurannya ini kegedean ya Coba kita
+
+262
+00:11:06,679 --> 00:11:08,629
+kecilin dulu jadi kita bisa kasih with
+
+263
+00:11:08,629 --> 00:11:10,459
+misalnya Saya pengen duitnya enggak usah
+
+264
+00:11:10,459 --> 00:11:13,730
+gede-gede layar 400 saja media kecilin
+
+265
+00:11:13,730 --> 00:11:16,329
+seperti itu terus kita kasih kontrol
+
+266
+00:11:16,329 --> 00:11:18,829
+nyimpan atributnya boleh ketuker ya
+
+267
+00:11:18,829 --> 00:11:20,720
+Nggak masalah mau controlsend di depan
+
+268
+00:11:20,720 --> 00:11:22,730
+sini Widya di depan juga nggak masalah
+
+269
+00:11:22,730 --> 00:11:24,619
+ya kita save kita lihat hasilnya
+
+270
+00:11:24,619 --> 00:11:27,079
+sekarang jadi ada kontrolnya Nih keren
+
+271
+00:11:27,079 --> 00:11:29,679
+saya play
+
+272
+00:11:29,679 --> 00:11:32,689
+videonya tampil ini beserta audionya
+
+273
+00:11:32,689 --> 00:11:35,569
+juga tampil ya walaupun videonya enggak
+
+274
+00:11:35,569 --> 00:11:38,269
+ada aodio nya secara default dia akan
+
+275
+00:11:38,269 --> 00:11:40,879
+menjalankan audionya sekarang kalau
+
+276
+00:11:40,879 --> 00:11:42,860
+misalnya kita mau menggunakan teks figur
+
+277
+00:11:42,860 --> 00:11:46,129
+juga karena sama kita tinggal kasih aja
+
+278
+00:11:46,129 --> 00:11:49,910
+Lex figur lalu figcaption kalau mau ada
+
+279
+00:11:49,910 --> 00:11:52,339
+captionnya ini misalnya baru di bawahnya
+
+280
+00:11:52,339 --> 00:11:55,489
+kita kasih tank videonya ya kita mau
+
+281
+00:11:55,489 --> 00:11:58,279
+simpan di dalam survei juga bisa sama
+
+282
+00:11:58,279 --> 00:12:01,860
+seperti odio kita kasih so baru-baru src
+
+283
+00:12:01,860 --> 00:12:04,320
+di sini kita Panggil yang webm dulu ya
+
+284
+00:12:04,320 --> 00:12:08,250
+video satu wpm terus kita kasih tipenya
+
+285
+00:12:08,250 --> 00:12:12,000
+video webm yang berikutnya baru kita
+
+286
+00:12:12,000 --> 00:12:15,300
+Panggil yang mp4nya Karena wpm ini belum
+
+287
+00:12:15,300 --> 00:12:17,610
+di support oleh semua browser maka
+
+288
+00:12:17,610 --> 00:12:20,040
+biasanya saya simpan duluannya jadi buat
+
+289
+00:12:20,040 --> 00:12:21,630
+yang support pakai itu dulu kalau nggak
+
+290
+00:12:21,630 --> 00:12:24,960
+support baru follbacknya ke MP4 MP4
+
+291
+00:12:24,960 --> 00:12:26,760
+cenderung bisa digunakan oleh semua
+
+292
+00:12:26,760 --> 00:12:30,450
+browser kita tulis video MP4 tip dan di
+
+293
+00:12:30,450 --> 00:12:32,090
+akhir Kita juga bisa Tulis disini
+
+294
+00:12:32,090 --> 00:12:36,690
+browser tidak mendukung teks video ya
+
+295
+00:12:36,690 --> 00:12:38,340
+kalau misalkan dua ini enggak bisa
+
+296
+00:12:38,340 --> 00:12:40,590
+dijalanin yang tampil tulisannya tinggal
+
+297
+00:12:40,590 --> 00:12:44,010
+kita kasih videonya controls lalu it-nya
+
+298
+00:12:44,010 --> 00:12:48,000
+tadi 400 pixel Dayat lagi nah ada
+
+299
+00:12:48,000 --> 00:12:50,460
+judulnya sekarang ada videonya kalau
+
+300
+00:12:50,460 --> 00:12:52,410
+kita mau tambahkan poster juga bisa ya
+
+301
+00:12:52,410 --> 00:12:54,330
+ini misalnya Sekarang saya udah punya
+
+302
+00:12:54,330 --> 00:12:56,910
+sebuah folder namanya IMG yang isinya
+
+303
+00:12:56,910 --> 00:12:59,430
+ada gambar yang akan saya jadikan
+
+304
+00:12:59,430 --> 00:13:02,140
+sebagai serta caranya kita tinggal tulis
+
+305
+00:13:02,140 --> 00:13:04,870
+aja di dalam teks videonya atribut
+
+306
+00:13:04,870 --> 00:13:08,110
+poster tinggal diisi pas atau tempat
+
+307
+00:13:08,110 --> 00:13:10,840
+penyimpanan dari posternya IMG Flash
+
+308
+00:13:10,840 --> 00:13:13,330
+Video BG Ini kalau misalkan kita jalanin
+
+309
+00:13:13,330 --> 00:13:16,750
+layang default-nya tampil adalah poster
+
+310
+00:13:16,750 --> 00:13:20,170
+kita kalau Deeply baru dia jalan atau
+
+311
+00:13:20,170 --> 00:13:22,360
+kalau misalnya videonya enggak tampil
+
+312
+00:13:22,360 --> 00:13:24,460
+maka gambar yang tampil contoh kalau
+
+313
+00:13:24,460 --> 00:13:26,680
+misalkan kita salah nulis file-nya nih
+
+314
+00:13:26,680 --> 00:13:29,260
+Ini kan nggak ada nih paling Iya kalau
+
+315
+00:13:29,260 --> 00:13:31,930
+kita di Facebook yang tampil posternya
+
+316
+00:13:31,930 --> 00:13:34,630
+walaupun gak bisa diplay eh kalau enggak
+
+317
+00:13:34,630 --> 00:13:37,780
+ada posternya tapi Vale salah atau
+
+318
+00:13:37,780 --> 00:13:39,730
+file-nya nggak bisa ditampilin maka dia
+
+319
+00:13:39,730 --> 00:13:42,010
+bilang begini ya Jadi kalau pakai poster
+
+320
+00:13:42,010 --> 00:13:44,770
+silahkan tambahkan atribut poster disini
+
+321
+00:13:44,770 --> 00:13:47,500
+maka sekarang ada posternya Nah sekarang
+
+322
+00:13:47,500 --> 00:13:50,470
+kita juga bisa menggunakan atribut Loop
+
+323
+00:13:50,470 --> 00:13:54,460
+atribut lupa akan membuat videonya terus
+
+324
+00:13:54,460 --> 00:13:56,680
+berputar Jadi mengulang lagi dari awal
+
+325
+00:13:56,680 --> 00:13:59,290
+ngulang lagi dari awal dan untuk video
+
+326
+00:13:59,290 --> 00:14:03,290
+kita pakai auto play nah tapi ada cara
+
+327
+00:14:03,290 --> 00:14:05,989
+ngakalinnya Oke kita pakai autoplay dari
+
+328
+00:14:05,989 --> 00:14:08,749
+fresh Tetep nggak jalan ya kenapa nggak
+
+329
+00:14:08,749 --> 00:14:11,209
+jalan karena sama seperti caudio
+
+330
+00:14:11,209 --> 00:14:13,699
+browsernya enggak mau menjalankan
+
+331
+00:14:13,699 --> 00:14:15,589
+autoplex kalau misalkan tiba-tiba ada
+
+332
+00:14:15,589 --> 00:14:18,199
+odio yang muncul tapi kalau video aja
+
+333
+00:14:18,199 --> 00:14:20,540
+tanpa audio browser mau jalanin
+
+334
+00:14:20,540 --> 00:14:22,399
+ditanyakan biasanya user terganggunya
+
+335
+00:14:22,399 --> 00:14:24,499
+sama suara yang mendadak muncul gitu ya
+
+336
+00:14:24,499 --> 00:14:27,290
+karena Gimana caranya kita kasih muted
+
+337
+00:14:27,290 --> 00:14:30,739
+disini jadi audionya enggak jalan tapi
+
+338
+00:14:30,739 --> 00:14:33,290
+videonya autoplay Nah ini bisa kita
+
+339
+00:14:33,290 --> 00:14:35,989
+gunakan lihat Uh karena otomatis jalan
+
+340
+00:14:35,989 --> 00:14:38,230
+atau kita refresh lagi
+
+341
+00:14:38,230 --> 00:14:41,899
+uh videonya Jalan bahkan Jadi sekarang
+
+342
+00:14:41,899 --> 00:14:45,009
+kita bisa hilangin controls nya
+
+343
+00:14:45,009 --> 00:14:46,660
+tuh
+
+344
+00:14:46,660 --> 00:14:49,399
+jadi ini cocok banget ketika teman-teman
+
+345
+00:14:49,399 --> 00:14:52,610
+mau bikin background yang bentuknya
+
+346
+00:14:52,610 --> 00:14:54,319
+video background dari halaman web
+
+347
+00:14:54,319 --> 00:14:56,540
+bentuknya video ini keren teman-temannya
+
+348
+00:14:56,540 --> 00:14:58,429
+kita coba bikin ya kita kembali ke
+
+349
+00:14:58,429 --> 00:15:00,780
+codingnya ini mungkin teman-teman sering
+
+350
+00:15:00,780 --> 00:15:02,430
+lihat ada website yang melakukan ini
+
+351
+00:15:02,430 --> 00:15:04,050
+atau teman-teman penasaran bikinnya
+
+352
+00:15:04,050 --> 00:15:06,270
+gimana kita akan cobain kita kasih
+
+353
+00:15:06,270 --> 00:15:08,220
+komentar dulu ya Sekarang kita mau bikin
+
+354
+00:15:08,220 --> 00:15:10,740
+sebuah teks simpel ajalah ya Kita kasih
+
+355
+00:15:10,740 --> 00:15:13,590
+Div yang nama kelasnya misalnya Hero
+
+356
+00:15:13,590 --> 00:15:15,900
+karena saya pengen bikin tampil langsung
+
+357
+00:15:15,900 --> 00:15:18,480
+di depan begini yang dalamnya kita kasih
+
+358
+00:15:18,480 --> 00:15:22,170
+dulu tulisan pembukanya hanya Hello wpuf
+
+359
+00:15:22,170 --> 00:15:24,900
+itu ya atau apapun Welcome to my website
+
+360
+00:15:24,900 --> 00:15:27,900
+gitu boleh atau kita ganti deh Welcome
+
+361
+00:15:27,900 --> 00:15:30,990
+to web weselnya di bawahnya baru kita
+
+362
+00:15:30,990 --> 00:15:33,120
+Panggil videonya langsung aja simpel
+
+363
+00:15:33,120 --> 00:15:35,250
+kita pakai tank video kita banget video
+
+364
+00:15:35,250 --> 00:15:37,170
+kita yang tadi ya langsung aja kita ke
+
+365
+00:15:37,170 --> 00:15:40,380
+video Slash ambil yang webm aja biar
+
+366
+00:15:40,380 --> 00:15:44,160
+lebih kecil terus kita kasih autoplay N
+
+367
+00:15:44,160 --> 00:15:48,210
+lu nah jadi biar langsung jalan tanpa
+
+368
+00:15:48,210 --> 00:15:51,330
+kontrol Ngelihat dia jalannya tapi kan
+
+369
+00:15:51,330 --> 00:15:53,610
+Ini enggak jadi backgraound nih nanti
+
+370
+00:15:53,610 --> 00:15:55,650
+kita coba ubah CSS nya sekarang kita
+
+371
+00:15:55,650 --> 00:15:58,650
+kasih dulu kelas deh videonya supaya
+
+372
+00:15:58,650 --> 00:16:01,540
+kita bisa atur paket CS soalnya PNY
+
+373
+00:16:01,540 --> 00:16:06,070
+video BG kita sip gini aja htmlnya
+
+374
+00:16:06,070 --> 00:16:08,350
+hingga sekarang kita bikin CSS nya Nah
+
+375
+00:16:08,350 --> 00:16:11,380
+Cs nya agak panjang ya Kita kasih saja
+
+376
+00:16:11,380 --> 00:16:13,330
+di sini kita mulai dulu dengan
+
+377
+00:16:13,330 --> 00:16:16,210
+menghilangkan margin dan padding dari C
+
+378
+00:16:16,210 --> 00:16:19,570
+bodynya oleh kekasih bodi dan khas
+
+379
+00:16:19,570 --> 00:16:21,550
+satunya deh kalau mau pakai bintang
+
+380
+00:16:21,550 --> 00:16:23,680
+boleh tapi karena kita cuman punya dua
+
+381
+00:16:23,680 --> 00:16:26,020
+teh gini kita kasih 2T gini aja padding
+
+382
+00:16:26,020 --> 00:16:29,530
+0 marginnya juga nol kekasih familinya
+
+383
+00:16:29,530 --> 00:16:31,840
+Ariel aja berikutnya baru kita akan
+
+384
+00:16:31,840 --> 00:16:34,960
+style heronya yang pertama kita pengen
+
+385
+00:16:34,960 --> 00:16:37,660
+displaynya Flag supaya saya pengen bikin
+
+386
+00:16:37,660 --> 00:16:40,000
+tulisan Welcome to web punya tuh
+
+387
+00:16:40,000 --> 00:16:42,210
+bener-bener di tengah dari halamannya
+
+388
+00:16:42,210 --> 00:16:46,360
+iflix kita atur posisi horizontalnya
+
+389
+00:16:46,360 --> 00:16:48,240
+supaya ke tengah kita pakai
+
+390
+00:16:48,240 --> 00:16:51,220
+justify-content-center secara vertikal
+
+391
+00:16:51,220 --> 00:16:53,980
+yang kita ambil online items ya enter
+
+392
+00:16:53,980 --> 00:16:57,940
+Hei Makasih teks lain juga center dan
+
+393
+00:16:57,940 --> 00:17:00,019
+misalnya kita kasih background-color Nya
+
+394
+00:17:00,019 --> 00:17:03,079
+nah item dulu aja deh kasih item warna
+
+395
+00:17:03,079 --> 00:17:05,959
+tulisannya kekasih putih dulu dan
+
+396
+00:17:05,959 --> 00:17:08,439
+ukurannya saya lupa tadi kasih font-size
+
+397
+00:17:08,439 --> 00:17:12,349
+misalnya font size nya 3M LED Biar agak
+
+398
+00:17:12,349 --> 00:17:15,980
+gede Oke kita akan bikin supaya si video
+
+399
+00:17:15,980 --> 00:17:18,319
+BG nya sekarang supaya dia sekarang
+
+400
+00:17:18,319 --> 00:17:21,230
+posisinya absolud pembungkusnya atau
+
+401
+00:17:21,230 --> 00:17:24,199
+sihir Oya kita kasih relatif ya Kita
+
+402
+00:17:24,199 --> 00:17:26,359
+kasih relatif Nah sekarang dia saling
+
+403
+00:17:26,359 --> 00:17:28,640
+bertumpuk eh saling bertumpuk tapi ini
+
+404
+00:17:28,640 --> 00:17:32,120
+kegedean kita benerin dulu kita kasih
+
+405
+00:17:32,120 --> 00:17:36,799
+bottom 0 lifenya nol kita harus kasih
+
+406
+00:17:36,799 --> 00:17:38,600
+tinggi dulu nih sekarang masih tingginya
+
+407
+00:17:38,600 --> 00:17:42,590
+kekasih mint Hei 100% kita kasih minuit
+
+408
+00:17:42,590 --> 00:17:45,890
+nya juga 100% supaya penuh satu layar
+
+409
+00:17:45,890 --> 00:17:49,549
+key tinggal pembungkusnya itu kita kasih
+
+410
+00:17:49,549 --> 00:17:51,490
+mint haidnya
+
+411
+00:17:51,490 --> 00:17:55,669
+100 viewport Hei biar dia penuh satu
+
+412
+00:17:55,669 --> 00:17:58,070
+layar pekarang Dia penuh satu layar Tapi
+
+413
+00:17:58,070 --> 00:18:00,029
+ini masih bablas nih lupa ngilangin
+
+414
+00:18:00,029 --> 00:18:04,590
+khasnya kita kasih overflow hidden itu
+
+415
+00:18:04,590 --> 00:18:06,299
+Swedia sekarang pastel ini enggak ada
+
+416
+00:18:06,299 --> 00:18:07,979
+Scroll kiri-kanan Enggak ada scoro
+
+417
+00:18:07,979 --> 00:18:10,739
+atas-bawah udah nih videonya berjalan
+
+418
+00:18:10,739 --> 00:18:12,479
+tapi tulisannya masih ngumpet dibelakang
+
+419
+00:18:12,479 --> 00:18:15,359
+kita benerin dulu tumpukannya ya Kita
+
+420
+00:18:15,359 --> 00:18:18,450
+kasih si background yang supaya mundur
+
+421
+00:18:18,450 --> 00:18:24,090
+satu kita kasih z-index minus 1 mundur
+
+422
+00:18:24,090 --> 00:18:26,549
+satu nah cuman ketika kita kasih z-index
+
+423
+00:18:26,549 --> 00:18:29,909
+minus 1 dia ke belakang banget parah
+
+424
+00:18:29,909 --> 00:18:32,039
+inget sih heronya itu punya background
+
+425
+00:18:32,039 --> 00:18:34,889
+warna item nah ini akan keren kalau
+
+426
+00:18:34,889 --> 00:18:37,440
+misalnya kita kasih backgroundnya enggak
+
+427
+00:18:37,440 --> 00:18:40,379
+item tapi transparan jadi kita kasih er
+
+428
+00:18:40,379 --> 00:18:43,559
+GBA misalnya kalau mau item tadi 0,0
+
+429
+00:18:43,559 --> 00:18:46,769
+koma nol koma Nah kita kasih transparan
+
+430
+00:18:46,769 --> 00:18:49,159
+misalnya transparannya
+
+431
+00:18:49,159 --> 00:18:53,039
+0,3 misalnya lihat nih sekarang jadi ada
+
+432
+00:18:53,039 --> 00:18:56,129
+layer warna hitam di depan gambarnya
+
+433
+00:18:56,129 --> 00:18:58,229
+atau kalau mau lebih keren kita bisa
+
+434
+00:18:58,229 --> 00:19:00,010
+kasih linear-gradient
+
+435
+00:19:00,010 --> 00:19:01,990
+Hai Yahin misalkan saya komentari kita
+
+436
+00:19:01,990 --> 00:19:05,650
+ganti jadi background-image kita kasih
+
+437
+00:19:05,650 --> 00:19:07,200
+linear-gradient
+
+438
+00:19:07,200 --> 00:19:09,870
+nah di dalamnya Saya mau bikin
+
+439
+00:19:09,870 --> 00:19:12,850
+gradasinya kekanan bisa-bisa tulis tuh
+
+440
+00:19:12,850 --> 00:19:15,670
+Ride koma ini saya mau kasih 2 warna
+
+441
+00:19:15,670 --> 00:19:18,250
+karena demo kasih warna yang berbeda
+
+442
+00:19:18,250 --> 00:19:20,170
+juga boleh ya 2 warna ini nanti
+
+443
+00:19:20,170 --> 00:19:22,810
+transparan ini saya coba copykan ya Ya
+
+444
+00:19:22,810 --> 00:19:24,160
+udah punya warnanya di silahkan
+
+445
+00:19:24,160 --> 00:19:26,110
+temen-temen cari warna yang sesuai
+
+446
+00:19:26,110 --> 00:19:28,570
+keinginan ini warnanya hijau ke biru ya
+
+447
+00:19:28,570 --> 00:19:30,730
+Jadi kalau pengen diubah tinggal geser
+
+448
+00:19:30,730 --> 00:19:33,130
+aja ke sini saya mau warna birunya lebih
+
+449
+00:19:33,130 --> 00:19:35,350
+terang deh Sekarang Okelah Xavier nih
+
+450
+00:19:35,350 --> 00:19:39,850
+hasilnya begini oh jadi ada warna hijau
+
+451
+00:19:39,850 --> 00:19:42,640
+ke biru menjadi layer di depannya ini
+
+452
+00:19:42,640 --> 00:19:45,880
+untuk membuat background nya jalan terus
+
+453
+00:19:45,880 --> 00:19:47,770
+ya Kalau tulisannya mau kita kasih
+
+454
+00:19:47,770 --> 00:19:50,380
+transparan juga bisa jadi warna putihnya
+
+455
+00:19:50,380 --> 00:19:56,380
+itu Transparan ya er gba2 55,25 25 ini
+
+456
+00:19:56,380 --> 00:20:00,020
+putih kita kasih transparan soalnya
+
+457
+00:20:00,020 --> 00:20:03,290
+Hai transparansinya 60% tulisannya gini
+
+458
+00:20:03,290 --> 00:20:07,250
+atau kurang transparan 0,5 sip gitu ya
+
+459
+00:20:07,250 --> 00:20:09,590
+temen-temen acara kalau mau bikin video
+
+460
+00:20:09,590 --> 00:20:12,560
+menjadi background halaman kalian Oke
+
+461
+00:20:12,560 --> 00:20:15,490
+tapi ininya kita ketik video yang ini
+
+462
+00:20:15,490 --> 00:20:19,340
+nah berikutnya kita mau bahas 1thek lagi
+
+463
+00:20:19,340 --> 00:20:21,590
+sebagai pendukung untuk video yang
+
+464
+00:20:21,590 --> 00:20:23,810
+dinamakan dengan trek teknik Reni
+
+465
+00:20:23,810 --> 00:20:26,000
+teman-temannya buat apa trek kita lihat
+
+466
+00:20:26,000 --> 00:20:27,800
+atribut apa aja yang bisa kita kasih ke
+
+467
+00:20:27,800 --> 00:20:30,920
+trek ini jadi trek ini atributnya ada
+
+468
+00:20:30,920 --> 00:20:34,040
+SFC sumber dari file untuk tracknya
+
+469
+00:20:34,040 --> 00:20:37,640
+terus Anda kain nah kain ini bisa berisi
+
+470
+00:20:37,640 --> 00:20:39,560
+jenis trek nya ada apa aja jenis
+
+471
+00:20:39,560 --> 00:20:42,020
+tracknya itu kalian bisa tulis subtitle
+
+472
+00:20:42,020 --> 00:20:44,390
+kalian bisa tulis caption kalian bisa
+
+473
+00:20:44,390 --> 00:20:47,300
+tulis chapter atau description itu eh
+
+474
+00:20:47,300 --> 00:20:48,730
+sampai kalau kalian mau kasih
+
+475
+00:20:48,730 --> 00:20:52,940
+subtitle.srt tuh terjemahan dari dialog
+
+476
+00:20:52,940 --> 00:20:55,670
+yang ada di video ya sedangkan caption
+
+477
+00:20:55,670 --> 00:20:58,490
+itu terjemahan dari apapun suara yang
+
+478
+00:20:58,490 --> 00:21:01,409
+ada di videonya terjadi caption lebih
+
+479
+00:21:01,409 --> 00:21:03,779
+lengkap Enggak cuma dialog ada dialog
+
+480
+00:21:03,779 --> 00:21:06,719
+ada misalnya ton efek ditulisin yang
+
+481
+00:21:06,719 --> 00:21:08,340
+bisa akan ada orang tepuk tangan nanti
+
+482
+00:21:08,340 --> 00:21:10,590
+dia di captionnya ada tulisan suara
+
+483
+00:21:10,590 --> 00:21:12,749
+tepuk tangan kalau sampai tol hanya
+
+484
+00:21:12,749 --> 00:21:14,999
+dialog saja kalau chapter itu kalian
+
+485
+00:21:14,999 --> 00:21:17,249
+bisa naro bagian-bagian dari video yang
+
+486
+00:21:17,249 --> 00:21:19,409
+mau dituju ya sama seperti ceper yang
+
+487
+00:21:19,409 --> 00:21:20,940
+ada di YouTube ini ya terus ada
+
+488
+00:21:20,940 --> 00:21:23,129
+description buat ngejelasin videonya
+
+489
+00:21:23,129 --> 00:21:25,349
+tentang apa ini berguna ketika mau
+
+490
+00:21:25,349 --> 00:21:27,809
+dibaca oleh screen reader eh nanti kita
+
+491
+00:21:27,809 --> 00:21:29,759
+coba beberapa ya berikutnya ada title
+
+492
+00:21:29,759 --> 00:21:33,690
+buat ngasih tahu judul dari caption atau
+
+493
+00:21:33,690 --> 00:21:36,210
+subtitle ditulis dalam bahasa apa
+
+494
+00:21:36,210 --> 00:21:38,279
+sebagai nanti bantuan kalau kita mau
+
+495
+00:21:38,279 --> 00:21:40,859
+pilih bahasanya berikutnya dsrc Elang
+
+496
+00:21:40,859 --> 00:21:43,950
+Nah kalau ini kode bahasanya kalau
+
+497
+00:21:43,950 --> 00:21:46,019
+ternyata tuh judul Misalkan bahasa
+
+498
+00:21:46,019 --> 00:21:48,359
+Indonesia kalian tulis bahasa Indonesia
+
+499
+00:21:48,359 --> 00:21:49,979
+Kalau bahasa Inggris kalian tulisnya
+
+500
+00:21:49,979 --> 00:21:52,349
+English misalnya itu untuk title kalau
+
+501
+00:21:52,349 --> 00:21:54,749
+src langka Lian tulis kodenya misalnya
+
+502
+00:21:54,749 --> 00:21:57,029
+Indonesia Itu ide bahasa Inggris UN
+
+503
+00:21:57,029 --> 00:22:00,430
+Bahasa Jepang itu JP misalnya dance next
+
+504
+00:22:00,430 --> 00:22:02,260
+Oke teman-teman kita langsung Cobain aja
+
+505
+00:22:02,260 --> 00:22:05,260
+ya Kembali ke codingnya ini gimana kalau
+
+506
+00:22:05,260 --> 00:22:08,160
+kita komentari dua Jaya kita komentari
+
+507
+00:22:08,160 --> 00:22:10,900
+begitu pula dengan CSS Saya matikan dulu
+
+508
+00:22:10,900 --> 00:22:14,650
+deh kita komentarin uts-nya misalnya
+
+509
+00:22:14,650 --> 00:22:16,960
+Sekarang saya mau bikin sitek video ini
+
+510
+00:22:16,960 --> 00:22:19,600
+menggunakan bantuan source Oke kita
+
+511
+00:22:19,600 --> 00:22:23,440
+kasih kontrol lalu with nya 400 Nah
+
+512
+00:22:23,440 --> 00:22:25,930
+sekarang saya mau ambil C videonya yang
+
+513
+00:22:25,930 --> 00:22:30,070
+video episode 1 html kita jadi src emo
+
+514
+00:22:30,070 --> 00:22:33,270
+ambil ada di video lalu apa itu HTML5
+
+515
+00:22:33,270 --> 00:22:38,260
+yang tipenya video webm eh kita telur ya
+
+516
+00:22:38,260 --> 00:22:41,320
+Nah ini ada kalau kita play menemuan
+
+517
+00:22:41,320 --> 00:22:43,420
+selamat dada nah ceritanya Saya mau
+
+518
+00:22:43,420 --> 00:22:46,000
+nambahin subtitle Nah siap datanya nanti
+
+519
+00:22:46,000 --> 00:22:48,220
+akan muncul di sini sekarang enggak ada
+
+520
+00:22:48,220 --> 00:22:50,590
+karena kita belum punya subtitlenya nah
+
+521
+00:22:50,590 --> 00:22:52,420
+gimana nih cara bikin sampai telurnya
+
+522
+00:22:52,420 --> 00:22:55,210
+yang pertama kita butuh elemen trek tadi
+
+523
+00:22:55,210 --> 00:22:58,060
+ya kita butuh elemen trek ini sangat
+
+524
+00:22:58,060 --> 00:23:00,920
+tahu kenapa belum ada di PS Iya tracknya
+
+525
+00:23:00,920 --> 00:23:02,630
+jadi nggak bisa trek terus tab kita
+
+526
+00:23:02,630 --> 00:23:05,690
+harus bikin manual yang kita tulis src
+
+527
+00:23:05,690 --> 00:23:08,990
+Nah untuk caption atau subtitle ini
+
+528
+00:23:08,990 --> 00:23:14,420
+harus memiliki extension titikp dari
+
+529
+00:23:14,420 --> 00:23:17,300
+misalnya kita bikin ya kita bikin sebuah
+
+530
+00:23:17,300 --> 00:23:19,480
+folder baru kita kasih nama aja caption
+
+531
+00:23:19,480 --> 00:23:21,980
+begini terus dalamnya kita bikin sebuah
+
+532
+00:23:21,980 --> 00:23:24,260
+file kita tulis aja namanya bebas
+
+533
+00:23:24,260 --> 00:23:28,520
+sebetulnya caption titik vtt nah ini
+
+534
+00:23:28,520 --> 00:23:30,590
+kita kalau saja karena listnya
+
+535
+00:23:30,590 --> 00:23:32,780
+pertama-tama kita harus tulis di paling
+
+536
+00:23:32,780 --> 00:23:36,440
+atasnya tuh web PTT gede semua baru di
+
+537
+00:23:36,440 --> 00:23:39,170
+bawahnya kita tulis menit teks yang akan
+
+538
+00:23:39,170 --> 00:23:41,870
+diucapkannya secara bisa gini kita tulis
+
+539
+00:23:41,870 --> 00:23:43,390
+misalnya dari nol
+
+540
+00:23:43,390 --> 00:23:47,840
+0.20 0.200 ini jam menit detik lalu
+
+541
+00:23:47,840 --> 00:23:50,480
+milih second nya pake titik terus kasih
+
+542
+00:23:50,480 --> 00:23:53,600
+panah dua lebih besar dari nih dari
+
+543
+00:23:53,600 --> 00:23:57,260
+sampai ini kita copy aja Bisa dari detik
+
+544
+00:23:57,260 --> 00:24:00,029
+ke nol sampai detik ke-1 atau detik
+
+545
+00:24:00,029 --> 00:24:02,809
+Swadaya detik kedua karena saya ngomong
+
+546
+00:24:02,809 --> 00:24:06,419
+Halo teman-teman semua misalnya gini aja
+
+547
+00:24:06,419 --> 00:24:08,879
+sekarang kita Steve kita kembali ke
+
+548
+00:24:08,879 --> 00:24:12,210
+html-nya sekarang kita Arahkan ke file
+
+549
+00:24:12,210 --> 00:24:16,440
+kita caption slash caption titik vtt
+
+550
+00:24:16,440 --> 00:24:19,109
+berikutnya kita kasih atributnya kain
+
+551
+00:24:19,109 --> 00:24:22,739
+lalu caption terus kita kasih title
+
+552
+00:24:22,739 --> 00:24:26,539
+misalnya tatonya bahasa Indonesia dan
+
+553
+00:24:26,539 --> 00:24:29,820
+src elangnya bahasa Apa kodenya
+
+554
+00:24:29,820 --> 00:24:31,950
+disiarkan teman-teman cari aja kode
+
+555
+00:24:31,950 --> 00:24:33,989
+dalam bahasa-bahasa lain ya yang sering
+
+556
+00:24:33,989 --> 00:24:37,200
+digunakan itu Een untuk English ide
+
+557
+00:24:37,200 --> 00:24:38,909
+untuk bahasa Indonesia Nah sekarang
+
+558
+00:24:38,909 --> 00:24:41,669
+kalau kita Steve nadph teman-teman di
+
+559
+00:24:41,669 --> 00:24:44,580
+videonya karena jadi ada caption kalau
+
+560
+00:24:44,580 --> 00:24:47,639
+saya klik caption of ya ini otomatis
+
+561
+00:24:47,639 --> 00:24:49,619
+udah nyala sekarang captionnya kalau
+
+562
+00:24:49,619 --> 00:24:51,450
+kita klik lagi lihat sekarang udah
+
+563
+00:24:51,450 --> 00:24:54,210
+captionnya ide dapat darimana ide dari
+
+564
+00:24:54,210 --> 00:24:58,080
+src langkitan kalau saya play Halo
+
+565
+00:24:58,080 --> 00:25:00,370
+teman-teman semua selamat ya keren bisa
+
+566
+00:25:00,370 --> 00:25:02,740
+nulis caption untuk video kita tapi
+
+567
+00:25:02,740 --> 00:25:04,900
+problemnya adalah kita harus nulisnya
+
+568
+00:25:04,900 --> 00:25:07,240
+manual ya agak ribet juga nih saya
+
+569
+00:25:07,240 --> 00:25:09,160
+akhirnya udah cara gampang ya supaya
+
+570
+00:25:09,160 --> 00:25:11,260
+kita bisa menjerat subtitle kita atau
+
+571
+00:25:11,260 --> 00:25:14,020
+caption kita secara otomatis ya tapi
+
+572
+00:25:14,020 --> 00:25:16,270
+cara yang saya temukan itu seperti ini
+
+573
+00:25:16,270 --> 00:25:17,410
+teman-teman Jadi yang pertama
+
+574
+00:25:17,410 --> 00:25:21,010
+teman-teman silahkan upload video ke
+
+575
+00:25:21,010 --> 00:25:22,900
+YouTube atau kalau misalkan videonya
+
+576
+00:25:22,900 --> 00:25:24,820
+udah ada di YouTube dan itu yang mau
+
+577
+00:25:24,820 --> 00:25:26,860
+temen-temen ambil captionnya silakan
+
+578
+00:25:26,860 --> 00:25:29,770
+copykan url video YouTube nya Anggaplah
+
+579
+00:25:29,770 --> 00:25:33,010
+Saya mau ngambil video html episode 1 ya
+
+580
+00:25:33,010 --> 00:25:35,560
+udah punya Iwa relnya ini siapkan dulu
+
+581
+00:25:35,560 --> 00:25:38,110
+Nah setelah disiapkan temen-temen masuk
+
+582
+00:25:38,110 --> 00:25:40,960
+ke sebuah website yang namanya down up
+
+583
+00:25:40,960 --> 00:25:43,780
+atau down sub ya dotcom ini untuk
+
+584
+00:25:43,780 --> 00:25:46,390
+mendownload subtitle dari sebuah video
+
+585
+00:25:46,390 --> 00:25:49,300
+kalau kita masukkan jualnya lalu kita
+
+586
+00:25:49,300 --> 00:25:51,880
+download nanti akan ada nih video kita
+
+587
+00:25:51,880 --> 00:25:53,770
+ada nah sekarang yang perlu temen-temen
+
+588
+00:25:53,770 --> 00:25:57,160
+lakukanlah download versi SRT nya nanti
+
+589
+00:25:57,160 --> 00:25:59,350
+setelah dapet kita simpan aja dulu ke
+
+590
+00:25:59,350 --> 00:26:01,940
+dalam video Kita masukin ke folder
+
+591
+00:26:01,940 --> 00:26:03,980
+caption Yang tadi kita udah buat kita
+
+592
+00:26:03,980 --> 00:26:06,650
+kasih nama aja ini caption2 ya caption2
+
+593
+00:26:06,650 --> 00:26:09,680
+Nah untuk namanya ini kita ganti jadi
+
+594
+00:26:09,680 --> 00:26:13,070
+vtt ya kita ganti jadi oval dulu terus
+
+595
+00:26:13,070 --> 00:26:16,400
+kita Dhaif Jadi sekarang kita punya nih
+
+596
+00:26:16,400 --> 00:26:18,950
+file-nya namanya caption2 kalau kita
+
+597
+00:26:18,950 --> 00:26:21,620
+buka formatnya udah mirip sama yang kita
+
+598
+00:26:21,620 --> 00:26:24,050
+bikin manual tadi epd2 hal yang perlu
+
+599
+00:26:24,050 --> 00:26:26,030
+kita edit dulu tapi lihat teman-teman
+
+600
+00:26:26,030 --> 00:26:28,460
+ini udah digenerate secara otomatis oleh
+
+601
+00:26:28,460 --> 00:26:30,320
+websitenya ini ngambil dari YouTube
+
+602
+00:26:30,320 --> 00:26:33,590
+Walaupun memang ada yang harus Diedit ya
+
+603
+00:26:33,590 --> 00:26:35,840
+karena ini di channel secara otomatis
+
+604
+00:26:35,840 --> 00:26:37,370
+Coba lihat nih Selamat datang kembali di
+
+605
+00:26:37,370 --> 00:26:40,100
+channel web Puber sama naik apa nih ini
+
+606
+00:26:40,100 --> 00:26:43,670
+salah ya harusnya web Puber sama ini ini
+
+607
+00:26:43,670 --> 00:26:45,920
+kita ganti aja jadi temanmu bisa
+
+608
+00:26:45,920 --> 00:26:48,290
+edit-edit dengan lebih gampang cuman ada
+
+609
+00:26:48,290 --> 00:26:50,270
+yang harus ditambahin kita tambahin di
+
+610
+00:26:50,270 --> 00:26:54,080
+atasnya tadi apa web vtt paling atas
+
+611
+00:26:54,080 --> 00:26:57,020
+nama satu lagi ini pakai koma nah ini
+
+612
+00:26:57,020 --> 00:26:59,660
+format eh salah kita harus ganti semua
+
+613
+00:26:59,660 --> 00:27:02,669
+com menjadi titik supaya jalan ini cara
+
+614
+00:27:02,669 --> 00:27:05,519
+saya sih tinggal di blog aja terus Klik
+
+615
+00:27:05,519 --> 00:27:08,249
+Kanan pilih yang ini change old
+
+616
+00:27:08,249 --> 00:27:11,159
+occurrences atau kontrol F2 terus ganti
+
+617
+00:27:11,159 --> 00:27:13,769
+jadi titik udah-udah semua tinggal di
+
+618
+00:27:13,769 --> 00:27:16,830
+save petai balik ke index ganti jadi
+
+619
+00:27:16,830 --> 00:27:20,249
+caption2 lihatnya teman-teman website
+
+620
+00:27:20,249 --> 00:27:23,460
+kita kalau kita nyalain caption ya kita
+
+621
+00:27:23,460 --> 00:27:25,830
+play Halo teman-teman semua selamat
+
+622
+00:27:25,830 --> 00:27:28,289
+datang kembali Anda dengan wpuf bersama
+
+623
+00:27:28,289 --> 00:27:30,210
+saya sandhika Galih ya di video kali ini
+
+624
+00:27:30,210 --> 00:27:32,759
+kita akan memulai Serang jual merek baru
+
+625
+00:27:32,759 --> 00:27:35,099
+atau please itu jadi caranya kalau
+
+626
+00:27:35,099 --> 00:27:38,489
+kalian punya lebih dari 1 caption bisa
+
+627
+00:27:38,489 --> 00:27:40,229
+juga ya Misalnya ini saya duplikat
+
+628
+00:27:40,229 --> 00:27:42,690
+pura-puranya Saya punya subtitle dalam
+
+629
+00:27:42,690 --> 00:27:45,479
+bahasa Inggris eduplex aja ceritanya
+
+630
+00:27:45,479 --> 00:27:47,969
+file-nya sama kainnya sama Cuman
+
+631
+00:27:47,969 --> 00:27:50,489
+titelnya beda ganti Misalnya Teteh jadi
+
+632
+00:27:50,489 --> 00:27:53,929
+English dan SR challenge jadi Een
+
+633
+00:27:53,929 --> 00:27:56,399
+sekarang lihat nih kalau saya balik ke
+
+634
+00:27:56,399 --> 00:27:59,399
+browsernya ketika kita klik menu setting
+
+635
+00:27:59,399 --> 00:28:02,980
+Disini Hai begitu kita pilih caption D2
+
+636
+00:28:02,980 --> 00:28:07,120
+tuh mau pilih ide atau Een karena kita
+
+637
+00:28:07,120 --> 00:28:08,710
+sekarang punya dua kalau cuma satu ini
+
+638
+00:28:08,710 --> 00:28:11,020
+enggak akan muncul hanya off dan on saja
+
+639
+00:28:11,020 --> 00:28:13,660
+karena kau saya pilih n berarti harusnya
+
+640
+00:28:13,660 --> 00:28:15,580
+yang tampil yang bahasa Inggris kan kita
+
+641
+00:28:15,580 --> 00:28:17,410
+menonton langsung datang kembali di
+
+642
+00:28:17,410 --> 00:28:19,510
+channel wp-include sama saya sandhika
+
+643
+00:28:19,510 --> 00:28:21,490
+Galih itu ya temennya jadi kita bisa
+
+644
+00:28:21,490 --> 00:28:24,760
+kasih subtitle ya keren ya Dan Terakhir
+
+645
+00:28:24,760 --> 00:28:27,730
+ya di dalam topik video ini adalah
+
+646
+00:28:27,730 --> 00:28:30,130
+gimana kalau misalnya kita mau ngambil
+
+647
+00:28:30,130 --> 00:28:32,890
+videonya bukan dari milik kita tapi
+
+648
+00:28:32,890 --> 00:28:35,170
+misalnya mau langsung dari YouTubenya
+
+649
+00:28:35,170 --> 00:28:37,180
+nah ini Sayangnya nggak bisa kita ganti
+
+650
+00:28:37,180 --> 00:28:39,700
+pake You are all langsung dari YouTube
+
+651
+00:28:39,700 --> 00:28:41,560
+begini caranya supaya kita bisa
+
+652
+00:28:41,560 --> 00:28:43,960
+menjalankan video dari YouTube caranya
+
+653
+00:28:43,960 --> 00:28:46,480
+adalah dengan menggunakan teknik MB kita
+
+654
+00:28:46,480 --> 00:28:48,040
+bisa menggunakan bantuan yang sudah
+
+655
+00:28:48,040 --> 00:28:49,830
+dikasih oleh YouTubenya misalnya
+
+656
+00:28:49,830 --> 00:28:52,720
+rencananya Ketika saya masuk ke video
+
+657
+00:28:52,720 --> 00:28:55,210
+saya yang episode 1 kalau teman-teman
+
+658
+00:28:55,210 --> 00:28:57,310
+masuk ke sebuah video aja ya nah
+
+659
+00:28:57,310 --> 00:28:58,480
+teman-teman lihat disini ada tombol
+
+660
+00:28:58,480 --> 00:29:02,360
+share kalau klik Nah di sini ada menu MB
+
+661
+00:29:02,360 --> 00:29:05,090
+teman-teman klik kita akan dapet Creep
+
+662
+00:29:05,090 --> 00:29:08,150
+di dalam tag iframe untuk kita copykan
+
+663
+00:29:08,150 --> 00:29:10,310
+ke website kita jadi kalau ini kita copy
+
+664
+00:29:10,310 --> 00:29:12,740
+kita masukkan kedalam website kita
+
+665
+00:29:12,740 --> 00:29:15,980
+kesimpen di bawahnya ajalah ya ini
+
+666
+00:29:15,980 --> 00:29:18,980
+inilah cara untuk mengambil video dari
+
+667
+00:29:18,980 --> 00:29:21,590
+YouTube menggunakan teknik embek kita
+
+668
+00:29:21,590 --> 00:29:24,140
+lihat hasilnya nah ini yang sebelah kiri
+
+669
+00:29:24,140 --> 00:29:26,330
+adalah video yang kita buat diambil dari
+
+670
+00:29:26,330 --> 00:29:27,950
+file video yang ada di lokal komputer
+
+671
+00:29:27,950 --> 00:29:30,530
+kita yang sebelah kanan ini menggunakan
+
+672
+00:29:30,530 --> 00:29:32,990
+teknik embek ya jadi teman-teman itu
+
+673
+00:29:32,990 --> 00:29:35,960
+cara kita mengelola audio dan video pada
+
+674
+00:29:35,960 --> 00:29:38,180
+halaman web kita di silahkan gunakan
+
+675
+00:29:38,180 --> 00:29:40,490
+sesuai dengan kebutuhan dari teman-teman
+
+676
+00:29:40,490 --> 00:29:42,290
+masing-masing ketika website memang
+
+677
+00:29:42,290 --> 00:29:44,240
+pengen menampilkan file-file multimedia
+
+678
+00:29:44,240 --> 00:29:46,760
+tersebut dan di video berikutnya kita
+
+679
+00:29:46,760 --> 00:29:48,440
+akan masuk ke topik yang berbeda kita
+
+680
+00:29:48,440 --> 00:29:51,380
+akan membahas mengenai kanvas pada HTML5
+
+681
+00:29:51,380 --> 00:29:54,170
+jadi juga pasti nggak kalah seru Oke
+
+682
+00:29:54,170 --> 00:29:55,550
+jadi itu saja untuk episode kali ini
+
+683
+00:29:55,550 --> 00:29:56,930
+mudah-mudahan bermanfaat buat
+
+684
+00:29:56,930 --> 00:29:58,700
+teman-teman semua sampai ketemu lagi di
+
+685
+00:29:58,700 --> 00:30:00,840
+episode Berikutnya saya kendali pamit
+
+686
+00:30:00,840 --> 00:30:03,330
+dan seperti biasa jangan lupa titik koma
+
+687
+00:30:03,330 --> 00:30:05,659
+lalu
+
+688
+00:30:16,660 --> 00:30:23,489
+[Musik]
+
